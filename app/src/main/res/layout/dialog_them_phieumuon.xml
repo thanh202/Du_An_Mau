@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thành Viên"
+        android:textSize="20sp"
+        android:textColor="#E91E63"/>
+
+    <Spinner
+        android:id="@+id/spnThanhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sach"
+        android:textSize="20sp"
+        android:textColor="#E91E63"/>
+
+    <Spinner
+        android:id="@+id/spnSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tiền Thuê Sách"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#E91E63"/>-->
+<!--    <EditText-->
+<!--        android:id="@+id/edtTien"-->
+<!--        android:hint="Nhập số Tiền"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</LinearLayout>
+
+<!--lấy dữ liệu từ mảng sách(SAO) và mảng thành viên(DAO)-->
